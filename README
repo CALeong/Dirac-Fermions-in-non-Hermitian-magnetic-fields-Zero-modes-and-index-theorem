@@ -1,0 +1,12 @@
+This repository contains the code files associated with the arXiv preprint entitled: "Dirac fermions in non-Hermitian magnetic fields: Zero modes and index theorem"
+
+Lattice and Operations python libraries are custom libraries which are needed for foundational operations like identifying nearest neighbors from a Hamiltonian, generating q=3 Hyperbolic lattices, etc. These dependencies are forzen state versions of an external repository found at the following URL:
+
+https://github.com/CALeong/Personal_Minimal_Code_Package
+
+See the above repository for any changes or updates to these libraries.
+
+Any other dependencies that lie outside of the above libraries are contained in the ProjectSpecific library, which namely contains dependencies for generating the type-I and type-II non-Hermitian magnetic field Hamiltonians on honeycomb nanoribbon and hyperbolic q=3 lattices.
+
+For the specific codes used to generate the figures in the arXiv preprint, which utilize the above dependencies, see the Run_Template_Scripts directory.
+
